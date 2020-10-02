@@ -1,179 +1,5 @@
 [[Enzyme]]
 arch = "x86_64"
-git-tree-sha1 = "374fd154296aeb3d35d7f8736e58b1925cacc83a"
-os = "macos"
-
-    [[Enzyme.download]]
-    sha256 = "f125b28f23847026111b76c2569194ef9855f3913c39347d0c1f1e59603a2431"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+0/Enzyme.v0.0.1.x86_64-apple-darwin14.tar.gz"
-[[Enzyme]]
-arch = "x86_64"
-git-tree-sha1 = "f6b01e7c7e07b380c67a77509d150393a4076d78"
-os = "freebsd"
-
-    [[Enzyme.download]]
-    sha256 = "8c103953f4c5f61a96b5a3714c7de7a005a8d6003ed48ea7132e26f26c569b27"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+0/Enzyme.v0.0.1.x86_64-unknown-freebsd11.1.tar.gz"
-[[Enzyme]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "46ee853b91ae18c2fb93109b8b77af34583d97a6"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "977a58131fbc912f3d81bdb0e1fe666fc00743510aa5498669ccc1623f4b56c8"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.aarch64-linux-gnu-cxx03.tar.gz"
-[[Enzyme]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3035246c2d041a23899bbc9e2128d7b9ba698093"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "619b56088495da836837f3cafdf416fc9faf8353e5e4cfe81c776d9e85485c6b"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.aarch64-linux-gnu-cxx11.tar.gz"
-[[Enzyme]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a7c80417b24de93ff26ee1f1f38f67922ddbd187"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "312cd277c1f5e1cdfec5bfd0291961bdb4e842363292ce4331c6756110920951"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.aarch64-linux-musl-cxx03.tar.gz"
-[[Enzyme]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "16bf2a86f17ae6f1c8839161ea4aef39e97f6d61"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "e41ea8f49687f98746f5c4e0baad4c0369dcbe9507d92d1f0dd297dec03dbf34"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.aarch64-linux-musl-cxx11.tar.gz"
-[[Enzyme]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6cca37ac996312acc69461b2ea15d9b0086413ba"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "09f43bba20651fbd60acfe6683a0701dc6d2262a99e8611d56c23c7d1adbdf8c"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[Enzyme]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ae6de07de9604da29bf80666efef526cfa06d50d"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "2855c503d044bec0256567a38293d1965213c5c9c4aa64bfbdbfd1bdc846720f"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[Enzyme]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "87e0b61147bf33991ea535ab48fa49f35c117312"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "12c319602c81c6c3a3c0cf6141f514fd02c7af5127613138393081c0ac33a30c"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[Enzyme]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2e036bb11db20f3c43ca5391612644deb74a2ece"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "9e05cba4703f54de4ceda5d78cd2f3a3b0b5d25dfbde58cf90c4fafdc631dd9f"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[Enzyme]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a7d9e7f52e9dc61ec56c5e232d7862eb24875658"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "2f63f25010bd36f1aebffa66b348c9862ca6bf8ce03adf7f3aa338ad7afd2c57"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.i686-linux-gnu-cxx03.tar.gz"
-[[Enzyme]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "29ad37c581f0c822d722821b26d5dee20b5e0321"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "53228d3e60f710e1c8a1705c000a62cd1a74fb6ebcbd29ccd9a46c7afa6e6b47"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.i686-linux-gnu-cxx11.tar.gz"
-[[Enzyme]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "057e6d6e96d161836758e5d97b186bcb908ad09e"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "c06def1cb6e3824f0b6e38797df2bfc6e4c435449f93a8eede0ce8923bf518ef"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.i686-linux-musl-cxx03.tar.gz"
-[[Enzyme]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "c400d5381d67e8b2acb2abc3f26775bd759b71dd"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "bfcaa06c7c8eabc792f760c1275aabaa8d7f01b7716a304546c3363145a02857"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.i686-linux-musl-cxx11.tar.gz"
-[[Enzyme]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a92e24f7c3ade9ea855aca246ac5d49e9bbffab2"
-os = "windows"
-
-    [[Enzyme.download]]
-    sha256 = "140da10de6e89554a4668c0d007fd850bff574d7f41c1b37eb1a9bd6dcf4e780"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.i686-w64-mingw32-cxx03.tar.gz"
-[[Enzyme]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "747255c24756fcdcf04dc466150f23c36fd54aba"
-os = "windows"
-
-    [[Enzyme.download]]
-    sha256 = "3167e5a43978955c4d9c2ebae8f45f04b1649c467eed3223cd0fcea58edddd5f"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.i686-w64-mingw32-cxx11.tar.gz"
-[[Enzyme]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c8692259b30232bf09c1e668375e5466887d8af4"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "4d848f9a93a4d497ebd027155c5c32a4a0b1f7ade72a79d1446ca6dd90cbf24c"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[Enzyme]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "169c37a006c8b8f6dc158d072ae6be4e0112aa1f"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "1d32f9a39ed85be87de4014e36de62337d93b6c4a4e45aa38586a3f686a4ad81"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[Enzyme]]
-arch = "x86_64"
 cxxstring_abi = "cxx03"
 git-tree-sha1 = "0016acc498068d5547961972d811b6b6d2f8253a"
 os = "macos"
@@ -193,46 +19,6 @@ os = "macos"
 [[Enzyme]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "02d7b28dca1174722130815a719bdb74af0e0edb"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "cec4c74be2f0137567b8434f77112c137e50fc6beeaaabcf25b9ad10ee1f0d4a"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-linux-gnu-cxx03.tar.gz"
-[[Enzyme]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "f3090aa2539825cfb3f51c989bf06f3a6e3f3d8d"
-libc = "glibc"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "717a75ccba78c0704d70e95dd4af8948d7ca17672221463c91bea6bee62e124d"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-linux-gnu-cxx11.tar.gz"
-[[Enzyme]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "cdd8b8ed43bfabca093c842786aee0652f12b4a2"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "8e1edb5b7ae78fb25370f9515fb52d795344e2b35de6a07a956b083df3afabfc"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-linux-musl-cxx03.tar.gz"
-[[Enzyme]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "00e2b8543429115c5d231408994d6be6fe649ffa"
-libc = "musl"
-os = "linux"
-
-    [[Enzyme.download]]
-    sha256 = "d6a4f2ebc9a2d27f42bc53728c55fa57765f719b322abc07f559f34632bdb0eb"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-linux-musl-cxx11.tar.gz"
-[[Enzyme]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
 git-tree-sha1 = "21f78941c197fa5e69c8678645c250c7bef7660d"
 os = "freebsd"
 
@@ -249,20 +35,238 @@ os = "freebsd"
     sha256 = "26c829b59586f3bd54d0761452e949c5c6ef608ef321ad830f7526da1e48b65c"
     url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
 [[Enzyme]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "61c90d1ed88f61f7d044b518b409b100b7368904"
+git-tree-sha1 = "c75c0963b670e8c98919af2d3d73562f4899b63a"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "f69478d02a904de992787b3bc8f68d575eb1ea3b538e9b448af39dda45d375d9"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[Enzyme]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c3095fa8e7c798c47d9dd15e0b9d2dfac64ecc78"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "d53635e3de0e10d5994b8c90ffe0fd211a512bc73f21b1fb3f8777c1bb0838f5"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[Enzyme]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d2b745c21c02bbabe6ae85f8cc062976beddc7c6"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "d76f7494af5e4752d0802003189d572d2fc53d0e8c4a278d3437fd43c8a83e57"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.aarch64-linux-musl-cxx03.tar.gz"
+[[Enzyme]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8c9707dd41d75f1ee09a173cf4458dc911b0db31"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "7d43f99326947b83bcb941b91d63c09aa02e95c61a2ea4e38c6369c9cc4b4522"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.aarch64-linux-musl-cxx11.tar.gz"
+[[Enzyme]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "88abf7a3344f208785cdb6e90be98efd33849cf8"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "bc7d0a97a4e0c74b5612fdb5b947713132b177ac90d6d7b6eb19b5e30f223c04"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Enzyme]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2ec3e8c118175f5f38e8ac3be3544c52af1da10b"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "9d9fa975c5d06a806cd5158ccce2cd359af0d5c0b518c7671e0cc3cc6d291fef"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Enzyme]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "2608bdf5486fa20b94b30a68e95b5ac285ac5ec5"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "1babff4fe774a136e1e19c44683032c7bac2ebbd93a61bbe074c44a407a75b93"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[Enzyme]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "97f5f2d32975f162bc82e340975cc36d0b64780e"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "7a210bab9899b573ba449be9c7d63aef7aca84fa7c6af0116ffd9f836bb410ce"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[Enzyme]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1218d8c3bf3ee706251c23abe95299a1c50e31c3"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "5c654c66fecacc62cc9e0415e96bb24789814bd8e190555e7ceb789b694e8c8c"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.i686-linux-gnu-cxx03.tar.gz"
+[[Enzyme]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2f9b3aea164f648baa8393e9d9b521ee4ce78dca"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "1cae8216a573e83ad176b8dd8cd1bee1446b0baa8e7ec6a9c0e8cbd5f8894ae4"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.i686-linux-gnu-cxx11.tar.gz"
+[[Enzyme]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bbac3e16f1d54ccdd5605b638f672492b5e69108"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "c147c9b8320134d01469e4981e15109fb401eb829e77fe1f3bd55b7248344dad"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.i686-linux-musl-cxx03.tar.gz"
+[[Enzyme]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c28c1b07990d3ebe9bce6af9592e149f0db2a42f"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "b0bf8e43141e6b5607339ffa793ff770dc229cf7c1710c7c1b7d0d7e82ae4faa"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.i686-linux-musl-cxx11.tar.gz"
+[[Enzyme]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fcf8cca45cf689e9bf9dcd2437e74fae20759cb4"
 os = "windows"
 
     [[Enzyme.download]]
-    sha256 = "b3a250d0bcd31a57a86484562453ed053d4435f3e4df0528491cfae4ee4bde84"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "cf8d41546c20a039e10f1f64abcf55705e2798ff49ced08bcfab3ef365c5fa72"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.i686-w64-mingw32-cxx03.tar.gz"
+[[Enzyme]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cb145fbdc2d9b348a5afb10e33e9a2db7f0fdec5"
+os = "windows"
+
+    [[Enzyme.download]]
+    sha256 = "6f2f5fcadf923c6d284fc8e16f8a59b18c61e682568b124c1c8081981b617155"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.i686-w64-mingw32-cxx11.tar.gz"
+[[Enzyme]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "161bcd3c4e96361215535fefa442c089df99c3ba"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "96413280a557280df5c7ae0d483dc3ddb86160f44e7d21a7a8536658c35065d8"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Enzyme]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "59108100a02a6f88e9eb74cb803e75e39111e821"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "7c0eddbd835fb023fb46d3d5db4b130111cb13512e84f1bb596fd1efe28034a2"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+git-tree-sha1 = "41c87e5df49552aaf7881cb2f9f0a9af7b2f9a97"
+os = "macos"
+
+    [[Enzyme.download]]
+    sha256 = "a2a499be2906684260506b2280f49dfcac61ea3ab3e9b1417b87b9d57330e5da"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-apple-darwin.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "646c3884edb9b22ba66917e22fab0cd9db1c83b0"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "ad83e649cf0dc0140f61986d7720e8c1e7c3e84b29d9a2f10120b4ed72e9308d"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-linux-gnu-cxx03.tar.gz"
 [[Enzyme]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f3f730c15b77cc4bc57c5f4a6d59643797629bd1"
+git-tree-sha1 = "e7247ed4cbb5d3cbe28561cb9c316e52407a203d"
+libc = "glibc"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "cb5f3eda5f16c736be2e04f562985a2eb08905555b14894022beed06f177fe27"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d495c15a435a1dee41942e7b534e7da247067703"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "dbd219ee1085ac162cbcc95e5b3f8a44a2305fecfc271f098243215d2d9fe1af"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-linux-musl-cxx03.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c3b11ec611d7ae463cf57d976ebb0f63f31c487d"
+libc = "musl"
+os = "linux"
+
+    [[Enzyme.download]]
+    sha256 = "cbc172c55e00ef21936ab097038484404fe959bbfc341840951bd06a5874ea83"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-linux-musl-cxx11.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+git-tree-sha1 = "8f4147d9a254ef2a30452cb116e35f2e1e765d67"
+os = "freebsd"
+
+    [[Enzyme.download]]
+    sha256 = "8d9820aa200e51a0c34db46fb1b40928a354db3322f002fbefc1190aa3fda0d4"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-unknown-freebsd.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9dd6b9f766114a89c914c5d474ed7a045ae64246"
 os = "windows"
 
     [[Enzyme.download]]
-    sha256 = "57bf24a718d17296ab8c28b09d632ca9f6c462802eb9c18ec303576b5a01584d"
-    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+2/Enzyme.v0.0.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "43dd40b0003d4774afcf0ad2953c48e9984b100329ea87b13b18b4890e466d57"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Enzyme]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f155d7624fa6b13e02baf80db75ed20bf3860d92"
+os = "windows"
+
+    [[Enzyme.download]]
+    sha256 = "89e030504c689267cd4a8446c69f8277aee82d52e4577abc563d409b5a8b95de"
+    url = "https://github.com/JuliaBinaryWrappers/Enzyme_jll.jl/releases/download/Enzyme-v0.0.1+3/Enzyme.v0.0.1.x86_64-w64-mingw32-cxx11.tar.gz"
