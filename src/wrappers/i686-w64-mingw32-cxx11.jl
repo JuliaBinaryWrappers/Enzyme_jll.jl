@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libEnzyme,
-        "bin/LLVMEnzyme-9.dll",
+        "bin\\LLVMEnzyme-9.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
