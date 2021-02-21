@@ -2,12 +2,12 @@
 export libEnzyme
 
 JLLWrappers.@generate_wrapper_header("Enzyme")
-JLLWrappers.@declare_library_product(libEnzyme, "libEnzyme-9.so")
+JLLWrappers.@declare_library_product(libEnzyme, "libEnzyme-11.so")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libEnzyme,
-        "lib/libEnzyme-9.so",
+        "lib/libEnzyme-11.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
