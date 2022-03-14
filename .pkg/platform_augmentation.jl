@@ -1,5 +1,4 @@
 using Base.BinaryPlatforms
-
     function augment_llvm!(platform::Platform)
         haskey(platform, "llvm_version") && return p
 
@@ -18,7 +17,6 @@ using Base.BinaryPlatforms
         end
         return platform
     end
-
 
 function augment_platform!(platform::Platform)
     augment_llvm!(platform)
