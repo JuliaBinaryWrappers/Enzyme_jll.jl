@@ -15,4 +15,3 @@ artifacts = select_downloadable_artifacts(artifacts_toml; platform, include_lazy
 
 #Output the result to `stdout` as a TOML dictionary
 TOML.print(stdout, artifacts)
-

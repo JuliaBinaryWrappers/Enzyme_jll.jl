@@ -1,6 +1,6 @@
 using Base.BinaryPlatforms
     function augment_llvm!(platform::Platform)
-        haskey(platform, "llvm_version") && return p
+        haskey(platform, "llvm_version") && return platform
 
         llvm_version = Base.libllvm_version
         # does our LLVM build use assertions?
@@ -21,4 +21,3 @@ using Base.BinaryPlatforms
 function augment_platform!(platform::Platform)
     augment_llvm!(platform)
 end
-
