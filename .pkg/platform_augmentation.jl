@@ -18,6 +18,4 @@ function augment_llvm!(platform::Platform)
     return platform
 end
 
-function augment_platform!(platform::Platform)
-    augment_llvm!(platform)
-end
+augment_platform!(platform::Platform) = augment_llvm!(platform)
